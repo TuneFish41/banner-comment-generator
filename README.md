@@ -1,10 +1,9 @@
 # banner-comment-generator
 
 
-This script generates a banner comment.
+This script generates a ASCII banner for commenting purpose. 
 
-Use from command line
-
+Use from command line:
 ```
 >>> ./generate_comment.py
 >>> Enter topic: Config
