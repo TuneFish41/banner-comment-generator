@@ -7,7 +7,7 @@ Use from command line
 
 ```
 >>> ./generate_comment.py
->>> Enter string: Config
+>>> Enter topic: Config
 >>> Enter comment: The user can override and set variables in config.cfg
 
 # .--Config---------------------------------------------------------------.
