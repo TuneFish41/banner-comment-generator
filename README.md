@@ -24,13 +24,13 @@ Prints:
 ```
 
 # Arguments
-| Short | Argument   | Description                                                  | Value | Default       |
-|:-----:|------------|--------------------------------------------------------------|:-----:|:-------------:|
-| -t    | --topic    | The topic used in top border and as figlet                   | str   | -             |
-| -c    | --comment  | The comment used in the bottom section. Single or multiline. | str   | -             |
-| -f    | --font     | One of the possible fonts used for figlet                    | str   | standard      |
-| -w    | --width    | Total width if the banner                                    | int   | 72            |
-| -l    | --letter   | The letter(s) used at every line beginning                   | str   | #             |
+| Short | Argument   | Description                                                     | Value | Default       |
+|:-----:|------------|-----------------------------------------------------------------|:-----:|:-------------:|
+| -t    | --topic    | The topic used in top border and as figlet                      | str   | -             |
+| -c    | --comment  | The comment used in the bottom section. Single or multiline.    | str   | -             |
+| -f    | --font     | One of the possible fonts used for figlet                       | str   | standard      |
+| -w    | --width    | Total width if the banner (except the line beginning e.g. "# ") | int   | 72            |
+| -l    | --letter   | The letter(s) used at every line beginning                      | str   | #             |
 
 Possible figlet fonts:
 [fonts](http://www.figlet.org/fontdb.cgi)
